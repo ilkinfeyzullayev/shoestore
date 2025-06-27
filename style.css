@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+}
+button {
+  background-color: red;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+#special {
+  color: yellow;
+  font-weight: bold;
+}
+.startEnd {
+  color: green;
+  font-style: italic;
+}
+button:hover {
+  background-color: darkred;
+  color: white;
+  scale: 1.1;
+}
+img {
+  padding: 10px;
+  border: 2px solid white;
+  margin: 100px;
+}
